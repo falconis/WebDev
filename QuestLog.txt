@@ -1,0 +1,5 @@
+Day 1:
+
+Folder was set up and linked to my github repo "https://github.com/falconis/WebDev.git".
+The following commands were used:
+    1. git remote add WebDev https://github.com/falconis/WebDev.git
