@@ -9,5 +9,17 @@ The following commands were used:
  *   1. unset HTTP_PROXY
  *   2. unset HTTPS_PROXY
  *   3. unset FTP_PROXY
- *
- * This turned out to be a temporary fix. Values were resetting after opening a new session. */
+ *   4. Also deleted the values from bashrc file.
+ * This turned out to be a temporary fix. Values were resetting after opening a new session. 
+ * Restarting fixed this.*/
+
+    2. git push -u WebDev master
+I'll start the course tomorrow. Hopefully ;-)
+
+Day 2:
+
+//Refer MDN(Mozilla Developer Network) for queries and doubts.
+
+Ok, so completed uptil 3rd section. Halfway through 4th section.
+
+Learned about basic html, its structure, tags etc, also learned about tables. Made some basic sites and a basic table.
