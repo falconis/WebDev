@@ -3,4 +3,11 @@ Day 1:
 Folder was set up and linked to my github repo "https://github.com/falconis/WebDev.git".
 The following commands were used:
     1. git remote add WebDev https://github.com/falconis/WebDev.git
-    2. 
+
+/* Ran into a problem here. Actually my proxy was interfering woth github connection. So, I had to unset the environment variables through terminal
+ * Commands used:
+ *   1. unset HTTP_PROXY
+ *   2. unset HTTPS_PROXY
+ *   3. unset FTP_PROXY
+ *
+ * This turned out to be a temporary fix. Values were resetting after opening a new session. */
