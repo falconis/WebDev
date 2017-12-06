@@ -1,0 +1,136 @@
+body{
+    background: rgb(61, 137, 230);
+}
+/* . to refer class # to refer ids */
+.box{
+    position: relative;
+    margin: auto; /* For automatic horizontal allignment */
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+   
+}
+.head{
+    position: absolute;
+    width: 55%;
+    height: 71.42%; /* To make a square of 300px*/
+    left: 22.5%; /* Use calculations for dead center */
+    top: 14.3%;
+    background: #A6BECF;
+    border-radius: 50%; /* Percentage to make circular rectangles */
+}
+.head-copy{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #A6BECF;
+    border-radius: 50%;
+    box-shadow: -5px -10px 0px  rgb(135, 149, 158)  inset;
+    z-index: 2; /* higher the value higher it is to the top */
+}
+
+.ear-left{
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    top: 2%;
+    left: -20%;
+    background: #A6BECF;
+    box-shadow: -5px -5px 0px  rgb(135, 149, 158)  inset;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.ear-right{
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    top: 2%;
+    right: -20%;
+    background: #A6BECF;
+    box-shadow: -5px -5px 0px  rgb(135, 149, 158)  inset;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.inner-ear{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: rgb(122, 135, 143);
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.eye-left{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 25%;
+    left: 23%;
+    background: rgb(255, 255, 255);
+    box-shadow: -5px -10px 0px  rgb(217, 221, 223)  inset;
+    border-radius: 50%;
+    z-index: 2;
+}
+.eye-right{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 25%;
+    right: 23%;
+    background: rgb(255, 255, 255);
+    box-shadow: -5px -10px 0px  rgb(217, 221, 223)  inset;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.pupil{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    right: 35%;
+    background: rgb(22, 24, 27);
+    border-radius: 50%;
+}
+
+.nose{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 40%;
+    top: 43%;
+    background: #BE845F;
+    box-shadow: -5px -10px 0px rgb(182, 107, 64)  inset;/* 3rd para for diffusion*/
+    border-radius: 33px;/* to make it curve from the centre of the width of the nose(width of nose is 66px*/
+    z-index: 4;
+}
+
+.hair-left{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: -8%;
+    left: 30%;
+    background: #A6BECF;
+    box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset;
+    clip-path: polygon(50% 0%,0% 100%,100% 100%);/* 3 vertices made and postion relative to 0 0 are taken as argument*/
+    z-index: 1;
+}
+.hair-right{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: -5%;
+    right: 30%;
+    background: #A6BECF;
+    box-shadow: -30px -10px 0px  rgb(135, 149, 158)  inset;
+    clip-path: polygon(50% 0%,0% 100%,100% 100%);
+    z-index: 1;
+}
