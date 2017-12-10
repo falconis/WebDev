@@ -2,8 +2,12 @@ h1{
     color: yellow;
 }
 li{
-    color: green;
+    color: white;
 }
 h4{
     color: aqua;
+}
+body{
+    background: url(https://images2.alphacoders.com/718/71840.jpg);
+    background-size: cover;
 }
