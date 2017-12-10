@@ -1,0 +1,4 @@
+/* Overwriting bootstrap */
+.btn-danger{
+    background: orange;
+}
