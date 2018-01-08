@@ -1,0 +1,26 @@
+body{
+    background-color : #232323;
+}
+#container{
+    max-width : 600px;
+    /* trick to keep contents to the center */
+    margin : 0 auto;    
+}
+.square{
+    /* for horizontal length */
+    width : 30%;
+    background : purple;
+    /* for vertical length */
+    padding-top : 30%; 
+    float : left;
+    margin : 1.66%; 
+}
+h1{
+    color : white;
+}
+.wrongSelection{
+    background-color: #232323;
+}
+span{
+    color : white;
+}
